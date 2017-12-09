@@ -95,6 +95,6 @@ ITEM_PIPELINES = {
 }
 
 DOWNLOADER_MIDDLEWARES = {
-    'food_hubei.middlewares.customMiddlewares.CustomProxy' : 10,
-    'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware' : 20,
+    # 'food_hubei.middlewares.customMiddlewares.CustomProxy' : 10,
+    # 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware' : 20,
 }
